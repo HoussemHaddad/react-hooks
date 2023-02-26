@@ -11,6 +11,7 @@ function MovieCard({movie}) {
         <Card.Text>
           {movie.description}<br></br>
           {movie.creatAt}<br></br>
+          {movie.trailerlink}<br></br>
           <ReactStars
        count={5}
        size={24}
